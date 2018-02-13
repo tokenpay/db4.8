@@ -1,0 +1,10 @@
+Berkeley DB 4.8.30
+==================
+
+This is version 4.8.30 of Berkeley DB from Oracle.  To view release and
+installation documentation, load the distribution file docs/index.html
+into your web browser.
+
+This is the source tree from Oracle with the following patches applied (which can be found in the root of the repository):
+
+ * `db-atomic.patch` - rename `__atomic_compare_exchange` function to avoid conflicting with built-in in Clang
